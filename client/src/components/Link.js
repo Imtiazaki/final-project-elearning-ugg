@@ -34,16 +34,24 @@ export default function LinksList() {
         }}
       >
         <MenuItem onClick={handleClose}>
-          <GitHubIcon sx={{ mr: 2 }} /> GitHub
+        <Link color="inherit" sx={{textDecoration: 'none'}} href="https://github.com/Imtiazaki">
+        <GitHubIcon sx={{ mr: 2 }} /> GitHub
+      </Link>
         </MenuItem>
         <MenuItem onClick={handleClose}>
+        <Link color="inherit" sx={{textDecoration: 'none'}} href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
           <YouTubeIcon sx={{ mr: 2 }} /> Youtube
+          </Link>
         </MenuItem>
         <MenuItem onClick={handleClose}>
+        <Link color="inherit" sx={{textDecoration: 'none'}} href="https://instagram.com/imtiazaki?igshid=OGQ5ZDc2ODk2ZA==">
           <InstagramIcon sx={{ mr: 2 }} /> Instagram
+          </Link>
         </MenuItem>
         <MenuItem onClick={handleClose}>
+        <Link color="inherit" sx={{textDecoration: 'none'}} href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
           <TwitterIcon sx={{ mr: 2 }} /> Twitter
+          </Link>
         </MenuItem>
       </Menu>
     </div>
